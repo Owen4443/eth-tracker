@@ -1,0 +1,15 @@
+node_modules/
+.env
+prices.json
+.log
+.DS_Store
+dist/
+build/
+coverage/
+.pem
+.key
+.cert
+.vscode/
+.idea/
+.swp
+.swo
