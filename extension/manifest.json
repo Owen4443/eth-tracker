@@ -1,19 +1,23 @@
 {
-  "manifest_version": 2,
-  "name": "Ethereum Wallet Tracker",
-  "version": "1.0",
-  "description": "Track Ethereum wallet tokens using Alchemy API.",
-  "permissions": [
-    "http://localhost:5000/*"
-  ],
-  "browser_action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "48": "icon.png"
-    }
-  },
-  "icons": {
-    "48": "icon.png",
-    "128": "icon.png"
-  }
-}
+       "manifest_version": 2,
+       "name": "Ethereum Wallet Tracker",
+       "version": "1.0",
+       "description": "Track Ethereum wallet tokens using Alchemy API.",
+       "permissions": [
+         "https://eth-tracker-jvgm.onrender.com/*"
+       ],
+       "browser_action": {
+         "default_popup": "popup.html",
+         "default_icon": {
+           "48": "icon.png"
+         }
+       },
+       "icons": {
+         "48": "icon.png",
+         "128": "icon.png"
+       },
+       "developer": {
+         "name": "Owen",
+         "url": "https://eth-tracker-jvgm.onrender.com/privacy.html"
+       }
+     }
